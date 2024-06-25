@@ -35,6 +35,9 @@ Center Selection Of a Hypercube via Maximum Value Entropy Search is implemented 
 ### Results
 Evaluation of the output obtained from experimentation are given in `morbes/Evaluation.ipynb`
 
+### Requirements
+Requirements of the MORBES architecture are given in `setup.py`
+
 ### Running the code
 
 To run a basic benchmark based on the config.json file in experiments/<experiment_name> using <algorithm>, follow these steps:
