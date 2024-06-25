@@ -30,6 +30,18 @@ The project is structured into four main parts:
 4. **Main function** : `main.py/` is used to run the experiments
 
 
+Center Selection Of a Hypercube via Maximum Value Entropy Search is implemented in the `morbes/trust_region.py` file and Tchebycheff's Scalarization for Reintializing Trusted Regions is implemented in the  `morbes/state.py` file.
+
+### Running the code
+
+To run a basic benchmark based on the config.json file in experiments/<experiment_name> using <algorithm>, follow these steps:
+
+1. Navigate to the experiments directory.
+2. Run the main.py script with the specified experiment name, algorithm, and seed
+
+cd experiments
+python main.py <experiment_name> <algorithm> <seed>
+
 
 
 
