@@ -32,6 +32,9 @@ The project is structured into four main parts:
 
 Center Selection Of a Hypercube via Maximum Value Entropy Search is implemented in the `morbes/trust_region.py` file and Tchebycheff's Scalarization for Reintializing Trusted Regions is implemented in the  `morbes/state.py` file.
 
+### Results
+Evaluation of the output obtained from experimentation are given in `morbes/evaluation.py`
+
 ### Running the code
 
 To run a basic benchmark based on the config.json file in experiments/<experiment_name> using <algorithm>, follow these steps:
@@ -54,6 +57,7 @@ experiments = {
     "rover": "Rover",
     "welded_beam": "Welded Beam",
 }
+bash```
 
 
 
