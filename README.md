@@ -39,8 +39,8 @@ To run a basic benchmark based on the config.json file in experiments/<experimen
 1. Navigate to the experiments directory.
 2. Run the main.py script with the specified experiment name, algorithm, and seed
 
-cd experiments
-python main.py <experiment_name> <algorithm> <seed>
+```bash
+cd experiments && python main.py <experiment_name>
 
 
 
