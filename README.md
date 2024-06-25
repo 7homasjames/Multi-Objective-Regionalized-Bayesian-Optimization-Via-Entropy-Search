@@ -22,3 +22,15 @@ MORBES carries out local optimization inside a trust region (TR), a principled m
 
 ### Getting Into the Code
 
+The project is structured into three main parts:
+
+1. **Utilities**
+2. **Experiments**
+3. **Configuration**
+
+#### 1. Utilities
+
+The utilities for constructing the acquisition functions and other helper methods are defined in the `morbes/` directory.
+
+
+
