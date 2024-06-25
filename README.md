@@ -22,15 +22,16 @@ MORBES carries out local optimization inside a trust region (TR), a principled m
 
 ### Getting Into the Code
 
-The project is structured into three main parts:
+The project is structured into four main parts:
 
-1. **Utilities**
-2. **Experiments**
-3. **Configuration**
+1. **Utilities**     : The utilities for constructing the acquisition functions and other helper methods are defined in the `morbes/` directory.
+2. **Experiments**   : MORBES has been tested on various experiments  and they are defined in `experiments/` directory
+3. **Configuration** : The experiment configurations are found in the `config.json` file of each sub-directory.
+4. **Main function** : `main.py/` is used to run the experiments
 
-#### 1. Utilities
 
-The utilities for constructing the acquisition functions and other helper methods are defined in the `morbes/` directory.
+
+
 
 
 
