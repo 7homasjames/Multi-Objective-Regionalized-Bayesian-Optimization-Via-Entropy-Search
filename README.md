@@ -40,7 +40,21 @@ To run a basic benchmark based on the config.json file in experiments/<experimen
 2. Run the main.py script with the specified experiment name, algorithm, and seed
 
 ```bash
-cd experiments && python main.py <experiment_name>
+cd experiments 
+python main.py <experiment_name> morbes <seed>
+
+Where
+
+experiments = {
+    "dtlz2_10d": "DTLZ2 (d=10)",
+    "dtlz2_30d": "DTLZ2 (d=30)",
+    "dtlz2_100d": "DTLZ2 (d=100)",
+    "dtlz5_m2": "DTLZ5 (M=2)",
+    "dtlz7_m2": "DTLZ7 (M=2)",
+    "rover": "Rover",
+    "welded_beam": "Welded Beam",
+}
+
 
 
 
