@@ -18,3 +18,7 @@ MORBES carries out local optimization inside a trust region (TR), a principled m
 <div align="center">
   <img src="https://github.com/7homasjames/Multi-Objective-Regionalized-Bayesian-Optimization-Via-Entropy-Search/assets/118433299/fdfa6cc3-edea-4150-8c9c-0c4bf4321afe" alt="RE" width="500" height="100">
 </div>
+
+
+### Getting Into the Code
+
