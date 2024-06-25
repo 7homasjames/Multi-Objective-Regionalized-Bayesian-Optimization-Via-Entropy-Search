@@ -57,11 +57,3 @@ experiments = {
     "rover": "Rover",
     "welded_beam": "Welded Beam",
 }
-bash```
-
-
-
-
-
-
-
